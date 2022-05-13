@@ -7,6 +7,14 @@
 또는 이러한 명령어를 가리킨다. 
 소프트웨어 개발에서 소스 코드 관리에 주로 사용되지만 어떠한 집합의 파일의 변경사항을 지속적으로 추적하기 위해 사용될 수 있다.
 
--Add
--Commit
--Push
+-Add 		(Table)
+-Commit		(Git)
+-Push		(GitHub)
+
+clone vs. pull
+connecting to github vs. pull files from github
+파일의 충돌가능성이 있는데 추후에 작성
+
+Fetch (refresh or load)
+
+
