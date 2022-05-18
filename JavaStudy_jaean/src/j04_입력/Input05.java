@@ -19,5 +19,4 @@ public class Input05 {
 		System.out.println(a==b ? "==" : a>b ? ">" : "<" );
 		
 	}
-
 }
