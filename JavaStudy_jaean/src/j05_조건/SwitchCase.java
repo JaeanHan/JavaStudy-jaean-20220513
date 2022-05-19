@@ -3,6 +3,7 @@ package j05_조건;
 public class SwitchCase {
 
 	public static void main(String[] args) {
+		
 		int num = 29;
 		char c = 'd';
 		String str = "강주현";
@@ -48,6 +49,7 @@ public class SwitchCase {
 			default:
 				System.out.println("찾을 수 없음");
 		}
+		
 	}
 
 }
