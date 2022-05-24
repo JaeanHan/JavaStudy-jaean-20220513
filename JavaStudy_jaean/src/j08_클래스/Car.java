@@ -12,6 +12,7 @@ public class Car {
 	 * 색상: 화이트
 	 * getCar() -> return 제조사_모델_색상
 	 * setColor() -> 매개변수에 색상을 받아서 color변수의 값을 변경 
+	 * 생성자의 반환 자료형은 생략되어져있다.
 	 */
 	
 	String company;
