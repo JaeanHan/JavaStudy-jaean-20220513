@@ -34,20 +34,29 @@ public class Array02 {
 			System.out.println("값: " + value);
 		}
 		
-//		int cnt2 = 0;
-//		int[] numbers2 = new int[cnt2];
-//		for(int i=0; i<100; i++) {
-//			if(i!=0 && i%8==0) {
-//				cnt2++;
-//				int[] tempNum = new int[cnt2];
-//				
-//				numbers2 = new int[cnt2];
-//				for(int j=0;j<tempNum.length; j++) {
-//					
-//				}	
-//			}
-//			
-//		}
+		System.out.println("-----------------------");
+		
+		int[] numbers2 = new int[1];
+		
+		for(int i=0; i<100; i++) {
+			if(i!=0 && i%8==0) {
+				int[] tempNum = new int[numbers2.length+1];
+			
+				for(int j=0;j<numbers2.length; j++) { // deep copy O(n^2)?
+					tempNum[j] = numbers2[j];
+				}	
+				
+				tempNum[tempNum.length-1] = i;
+				
+				numbers2 = tempNum;
+				System.out.println("numbers2: " + numbers2[tempNum.length-1]);
+			}
+			
+		}
+		
+		for(int i : numbers2) {
+			System.out.println("check : " + i);
+		}
 	}
 
 }
