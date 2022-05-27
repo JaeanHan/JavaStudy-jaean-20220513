@@ -13,17 +13,19 @@ public class FactoryMain2 {
 		}
 		
 		for(Factory factory : factories) {
+			System.out.println();
 			factory.start();
 			
 			if(factory instanceof SmartPhoneFactory) {
 				((SmartPhoneFactory)factory).showSmartPhone();
+				
 			} else if (factory instanceof ComputerFactory) {
 				((ComputerFactory) factory).showComputer();
+				
 			} else {
 				System.out.println("다운 캐스팅 할 수 없습니다.");
 			}
 		}
-		
 		
 	}
 
