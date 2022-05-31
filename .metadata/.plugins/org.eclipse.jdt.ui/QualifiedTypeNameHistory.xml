@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="j17_스태틱.Test"/>
+    <fullyQualifiedTypeName name="j17_스태틱.StaticTest"/>
+    <fullyQualifiedTypeName name="student.Student"/>
+    <fullyQualifiedTypeName name="j17_스태틱.싱글톤.Singleton"/>
+    <fullyQualifiedTypeName name="j17_스태틱.싱글톤.factory.KIA"/>
+</qualifiedTypeNameHistroy>
