@@ -1,4 +1,4 @@
-package j20_컬렉션.ArrayList;
+package j20_컬렉션.ArrayList.ArrayList;
 
 import java.util.ArrayList;
 
